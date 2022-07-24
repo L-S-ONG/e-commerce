@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  .loader {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 10vh auto;
+    border: 10px solid #000000;
+    border-top: 10px solid transparent;
+  }
+  .product-img {
+    width: 200px;
+    height: 200px;
+  }
+  .product-img > img {
+    height: 100%;
+    margin: auto;
+  }
+  
